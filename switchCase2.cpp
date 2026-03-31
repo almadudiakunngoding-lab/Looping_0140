@@ -41,3 +41,10 @@ void output() {
     cout << "----------------------------------" << endl;
 }
 
+int main() {
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
+}
