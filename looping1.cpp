@@ -29,5 +29,12 @@ int main() {
     } while(x >= 5);
     cout << "Bilangan acak do-while yang terakhir = " << x << endl << endl;
 
+    float nilB, nilM, rerata;
+    string status;
+    cout << "--- Logika NOT ---" << endl;
+    cout << "Masukkan nilai Matematika = "; cin >> nilM;
+    cout << "Masukkan nilai Bahasa Inggris = "; cin >> nilB;
+    rerata = (nilB + nilM) / 2;
+
     
 }
